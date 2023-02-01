@@ -1,3 +1,9 @@
+# Forked from
+
+https://github.com/harvardnlp/annotated-transformer
+
+# The Annotated Transformer
+
 Code for The Annotated Transformer blog post:
 
 http://nlp.seas.harvard.edu/annotated-transformer/
@@ -6,9 +12,6 @@ http://nlp.seas.harvard.edu/annotated-transformer/
 
 ![image](https://user-images.githubusercontent.com/35882/166251887-9da909a9-660b-45a9-ae72-0aae89fb38d4.png)
 
-
-
-
 # Package Dependencies
 
 Use `requirements.txt` to install library dependencies with pip:
@@ -16,7 +19,6 @@ Use `requirements.txt` to install library dependencies with pip:
 ```
 pip install -r requirements.txt
 ```
-
 
 # Notebook Setup
 
@@ -40,8 +42,7 @@ To produce the html version of the notebook, run:
 make html
 ```
 
-`make html` is just a shortcut for for generating the notebook with `jupytext --to ipynb the_annotated_transformer.py` followed by using the jupyter nbconvert command to produce html using `jupyter nbconvert --to html the_annotated_transformer.ipynb`                             
- 
+`make html` is just a shortcut for for generating the notebook with `jupytext --to ipynb the_annotated_transformer.py` followed by using the jupyter nbconvert command to produce html using `jupyter nbconvert --to html the_annotated_transformer.ipynb`
 
 # Formatting and Linting
 
